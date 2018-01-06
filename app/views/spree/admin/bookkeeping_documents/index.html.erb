@@ -89,13 +89,13 @@
   <table class="table" id="listing_orders" data-hook>
     <thead>
       <tr data-hook="printables_index_headers">
-        <th><%= sort_link @search, :created_at, I18n.t(:date, scope: [:spree, :print_invoice]) %></th>
-        <th><%= sort_link @search, :template, I18n.t(:document_type, scope: [:spree, :print_invoice]) %></th>
-        <th><%= sort_link @search, :number, I18n.t(:number, scope: [:spree, :print_invoice]) %></th>
-        <th><%= sort_link @search, :firstname, I18n.t(:firstname, scope: [:spree, :print_invoice]) %></th>
-        <th><%= sort_link @search, :lastname, I18n.t(:lastname, scope: [:spree, :print_invoice]) %></th>
-        <th><%= sort_link @search, :email, I18n.t(:email, scope: [:spree, :print_invoice]) %></th>
-        <th><%= sort_link @search, :total, I18n.t(:total, scope: [:spree, :print_invoice]) %></th>
+        <th><%= sort_link @search, :created_at, "Date Created" %></th>
+        <th><%= sort_link @search, :template, "Document Type" %></th>
+        <th><%= sort_link @search, :number, "Invoice Number" %></th>
+        <th><%= sort_link @search, :firstname, "First Name" %></th>
+        <th><%= sort_link @search, :lastname, "Last Name" %></th>
+        <th><%= sort_link @search, :email, "Email" %></th>
+        <th><%= sort_link @search, :total, "Total" %></th>
         <th data-hook="admin_orders_index_header_actions" class="actions"></th>
       </tr>
     </thead>
