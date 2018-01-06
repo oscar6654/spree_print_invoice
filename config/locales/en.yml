@@ -11,6 +11,13 @@ en:
       order_packaging_slip: Packaging Slip
       reimbursement_invoice: Reimbursement Invoice
       invoice: Invoice
+      date: Date
+      document_type: Document Type
+      number: Invoice Number
+      firstname: First Name
+      lastname: Last Name
+      email: Email
+      total: Invoice Amount
       invoices: Invoices
       reimbursement: Reimbursement
       reimbursements: Reimbursements
